@@ -2,7 +2,7 @@ import operator
 #Token Types
 #EOF (end of file ) token used to indicate that there is no more input left for lexical analysis
 
-INTEGER , PLUS, MINUS, EOF = 'INTEGER', 'PLUS', 'MINUS', 'EOF'
+INTEGER , PLUS, MINUS, EOF, TIMES, DIVIDE = 'INTEGER', 'PLUS', 'MINUS', 'EOF', 'TIMES','DIVIDE'
 
 class Token (object):
     def __init__ (self,type,value):
